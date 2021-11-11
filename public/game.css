@@ -1,0 +1,52 @@
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+/* .wordList span {
+    
+    position: static;
+    border: 3px solid #73AD21;
+      
+} */
+.wordList label {
+    font-weight: bold;
+    font-style: italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:hsla(207, 55%, 56%, 0.808);
+    
+}
+.words {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 80px;
+    background-color:hsl(67, 46%, 90%);
+}
+.score{
+    color: purple;
+    font-weight: bold;
+    font-style: italic;
+}
+.button {
+    background-color: #246888; 
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+}
+.makeNewGameBtn {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    background-color : #246888; 
+    color : white; 
+}
+.logoutBtn{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    font-weight: bold;
+    background-color: rgb(245, 243, 146);
+}
